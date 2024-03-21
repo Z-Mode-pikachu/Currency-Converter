@@ -1,0 +1,68 @@
+.container {
+  width: 15rem;
+  margin: 50px auto;
+  padding: 5px 5rem;
+  border-radius: 10px;
+  background-color: #dfdfe7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1.55px dashed #0056b3;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: .5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px black;
+  font-size: 1.65rem;
+  background-color: royalblue;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px darkblue;
+}
+
+.input-container,
+.select-container,
+.result-container {
+  margin-bottom: 20px;
+}
+
+.input-field,
+.select-field,
+.result {
+  padding: 10px;
+  max-width: 10rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: .1rem dashed #000000;
+
+}
+
+.select-field {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.swap-button {
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  background-color: rgb(0, 0, 200);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.swap-button:hover {
+  background-color: #0056b3;
+}
+
+.swap-icon {
+  margin-right: 5px;
+}
